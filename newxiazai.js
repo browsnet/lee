@@ -12,7 +12,7 @@
 if (location.host == "fenxiang.qq.com") {
   //script.src = "https://raw.github.com/chztv/QQFXExporter/master/QQFXExporter.js";
   //保存按钮
-$('.setting_button').live("click",function(){		    
+$('.setting_button').live("click",function(){  	    
 	//获取选择的列表
 	TLE.setConfig("QQ_aria2_jsonrpc", $("#QQ_aria2_jsonrpc").val());
 	XF.widget.msgbox.show("设置成功!"+TLE.getConfig("QQ_aria2_jsonrpc"),2,2000);
