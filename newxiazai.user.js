@@ -20,8 +20,6 @@ $('.setting_button').live("click",function(){
 
 var TLE = TLE || {};
 
-
-
 (function(TLE,exports) {
 
   function init() {
