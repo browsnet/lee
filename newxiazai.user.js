@@ -820,7 +820,7 @@ TLE.exporter = {
     $(".rwbtn.ic_redownloca").each(function(n, e) {
       $(e).after('<div class="TLE_get_btnbox">'
                   + '<span class="TLE_getlink">'
-                    + '<a href="#" class="TLE_link_gettxt TLE-down-text" style="padding-left: 20px; width: 57px;" onclick='+e.getAttribute("onclick")+'>取回本地</a>'
+                    + '<a href="#" class="TLE_link_gettxt TLE-down-text" style="padding-left: 20px; width: 57px;" onclick="'+e.getAttribute("onclick")+'">取回本地</a>'
                     + '<a href="#" class="TLE_link_getic TLE-down-btn" onclick="return TLE.getbtn(this);"></a>'
                   + '</span>'
                   + '<div class="TLE_p_getbtn TLE_getbtn" style="display: none;">'
